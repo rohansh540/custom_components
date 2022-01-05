@@ -1,0 +1,32 @@
+.settings-dialog {
+  width: 242.5px;
+  height: 250px;
+  margin: 9.5px 75.5px 7.8px 14.5px;
+  border-radius: 10px;
+  border: solid 2.5px #0b1317;
+  background-color: #0b1317;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-even {
+  width: 25%;
+  height: 20px;
+  margin: 0 0 12.1px;
+  padding: 10px 123.5px 13.5px 61px;
+  border-radius: 10px;
+  background-color: #222939;
+  color: white;
+  white-space: nowrap;
+}
+
+.row-odd {
+  width: 25%;
+  height: 20px;
+  margin: 0 0 12.1px;
+  padding: 10px 123.5px 13.5px 61px;
+  border-radius: 10px;
+  background-color: #0b1317;
+  color: white;
+  white-space: nowrap;
+}
