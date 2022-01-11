@@ -13,7 +13,7 @@ const Settings = ({ showSettings }: object) => {
     "Leader Boards",
     "Table Information"
   ];
-  if (showSettings) return null;
+  if (!showSettings) return null;
   return (
     <div className="settings-dialog">
       {settingList.length &&
