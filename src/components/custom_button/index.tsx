@@ -1,9 +1,11 @@
 import "./index.css";
 
-const CustomButton = () => {
+const CustomButton = ({ onClick }: any) => {
   return (
     <div className="btn-wrapper">
-      <button className="btn">Click here</button>
+      <button className="btn" onClick={onClick}>
+        Click here
+      </button>
     </div>
   );
 };
